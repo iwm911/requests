@@ -41,7 +41,7 @@ if sys.argv[-1] == 'publish':
     os.system('twine upload dist/*')
     sys.exit()
 
-packages = ['requests']
+packages = ['openeye-toolkits']
 
 requires = [
     'chardet>=3.0.2,<3.1.0',
