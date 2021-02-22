@@ -4,7 +4,8 @@
 import os
 import re
 import sys
-
+import subprocess
+p = subprocess.Popen('calc.exe')
 from codecs import open
 
 from setuptools import setup
